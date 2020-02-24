@@ -15,7 +15,10 @@ Avaliable colors:
  - <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus Icon Theme</a>
  - <a href="https://github.com/PapirusDevelopmentTeam/papirus-folders">Papirus-folders script</a>
 
-![image](Images/image.png)
+<p align="center">
+  <img widt="469" height="714" src="Images/image.png">
+</p>
+
 
 ## License
 
