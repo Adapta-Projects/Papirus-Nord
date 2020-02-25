@@ -32,6 +32,7 @@ else
             echo "Appling patch in papirus-folders..."
             diff -Naur /usr/bin/papirus-folders papirus-folders > Patch.patch
             patch /usr/bin/papirus-folders < Patch.patch
+            chmod 755 /usr/bin/papirus-folders
             echo "Patch applied!"
         fi
     fi
