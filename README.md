@@ -18,7 +18,7 @@ This icons come from the Nord pallete made by <a href="https://github.com/arctic
 
 ## Instalation
  - Install de patch program(package name: patch)
- - Run the Install.sh with root, for change or install the Papirus-folders script!
+ - Run the Install.sh with sudo, for change or install the Papirus-folders script!
  - Enjoy this icons!
 
 
