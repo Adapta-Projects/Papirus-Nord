@@ -22,7 +22,7 @@ This icons come from the Nord pallete made by <a href="https://github.com/arctic
  - Enjoy this icons!
 
 
-These icons were created and named for a Java program, <a href="https://github.com/Joshaby/Papirus-Folder-Icon-Creator">Papirus Folder Icon Creator</a> created by me, an easy way to make icons from Papirus folders!
+These icons were created and named for a Java program, <a href="https://github.com/Joshaby/Papirus-Folder-Icon-Creator">Papirus Folder Icon Creator</a> created by me, an easy way to make folder icons for Papirus!
 
 ## License
 
