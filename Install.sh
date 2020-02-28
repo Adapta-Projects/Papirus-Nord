@@ -13,7 +13,7 @@ then
         echo "Install first the papirus icon!"
         exit 0
     else
-        echo "Papiruc icon already installed!"
+        echo "Papirus icon already installed!"
         LOCAL = "/home/$USER/.icons/Papirus"
     fi
 else
@@ -32,7 +32,7 @@ else
             echo "Appling patch in papirus-folders..."
             diff -Naur /usr/bin/papirus-folders papirus-folders > Patch.patch
             patch /usr/bin/papirus-folders < Patch.patch
-            chmod 755 /usr/bin/papirus-folders
+            rm -f Patch.patch
             echo "Patch applied!"
         fi
     fi

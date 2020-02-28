@@ -122,7 +122,9 @@ declare_colors() {
 		"yellow" "auroragreen" "auroraorange")
 
 	for color in "${valid_colors[@]}"; do
-		colors=( "${colors[@]}" "$color" )
+		if [ -e "$THEME_DIR/48x48/places/folder-$color.svg" ]; then
+			colors=( "${colors[@]}" "$color" )
+		fi
 	done
 
 	# return array of colors
@@ -263,7 +265,8 @@ change_color() {
 
 				file_name="${file_path##*/}"
 				symlink_path="${file_path/-$color/}"  # remove color suffix
-
+				
+				
 				ln -sf "$file_name" "$symlink_path" || {
 					fatal "Fail to create '$symlink_path' symlink"
 				}
