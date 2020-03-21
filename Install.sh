@@ -14,7 +14,7 @@ then
         exit 0
     else
         echo "Papirus icon already installed!"
-        LOCAL = "/home/$USER/.icons/Papirus"
+        LOCAL="/home/$USER/.icons/Papirus"
     fi
 else
     if [ ! -d $LOCAL ]
