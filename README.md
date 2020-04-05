@@ -5,8 +5,6 @@
 
 Custom colors for folder icons for <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus Icon Theme</a>!
 
-This icons come from the Nord pallete made by <a href="https://github.com/arcticicestudio/nord">Arctic Ice Studio</a>!
-
 <p align="center">
   <img widt="269" height="514" src="Images/image.png">
 </p>
@@ -23,6 +21,8 @@ This icons come from the Nord pallete made by <a href="https://github.com/arctic
 
 
 These icons were created and named for a Java program, <a href="https://github.com/Joshaby/Papirus-Folder-Icon-Creator">Papirus Folder Icon Creator</a> created by me, an easy way to make folder icons for Papirus!
+
+This icons come from the Nord pallete made by <a href="https://github.com/arcticicestudio/nord">Arctic Ice Studio</a>!
 
 ## License
 
