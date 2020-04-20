@@ -25,7 +25,7 @@ else
         if [ ! -f /usr/bin/papirus-folders ]
         then
             echo "Papirus-folders script not is installed!"
-            cp /usr/bin papirus-folders
+            cp papirus-folders /usr/bin
             echo "Papirus-folders script installed!"
         else
             echo "Papirus-folders already installed!"
