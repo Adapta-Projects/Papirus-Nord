@@ -9,6 +9,13 @@ Custom colors for folder icons for <a href="https://github.com/PapirusDevelopmen
   <img widt="269" height="514" src="Images/image.png">
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/release/Joshaby/Papirus-Nord?color=red&style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/Joshaby/Papirus-Nord?color=violet&style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/Joshaby/Papirus-Nord?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/Joshaby/Papirus-Nord?style=for-the-badge">
+</p>
+
 ## Requeriments
 
  - <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus Icon Theme</a>
