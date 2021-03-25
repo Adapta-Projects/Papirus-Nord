@@ -15,7 +15,7 @@ Custom colors for folder icons for <a href="https://github.com/PapirusDevelopmen
 </p>
 
 # Preview
-<center>
+<p align="center">
 
 | Name | Preview | Name | Preview |
 |:----:|:-------:|:----:|:-------:|
@@ -27,7 +27,7 @@ Custom colors for folder icons for <a href="https://github.com/PapirusDevelopmen
 | **Aurora Orange** | ![user-auroraorange-desktop](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/user-auroraorange-desktop.svg) ![folder-auroraorange](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/folder-auroraorange.svg) ![user-auroraorange-home](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/user-auroraorange-home.svg) | **Aurora Yellow** | ![user-auroyellow-desktop](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/user-aurorayellow-desktop.svg) ![folder-aurorayellow](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/folder-aurorayellow.svg) ![user-aurorayellow-home](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/user-aurorayellow-home.svg) |
 | **Aurora Green** | ![user-auroragreen-desktop](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/user-auroragreen-desktop.svg) ![folder-auroragreen](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/folder-auroragreen.svg) ![user-auroragreen-home](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/user-auroragreen-home.svg) | **Aurora Magenta** | ![user-auroramagenta-desktop](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/user-auroramagenta-desktop.svg) ![folder-auroramagenta](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/folder-auroramagenta.svg) ![user-auroramagenta-home](https://raw.githubusercontent.com/Adapta-Projects/Papirus-Nord/1a0d52258d8d16f6cf393ba8f393f19994aa032f/Icons/48x48/user-auroramagenta-home.svg) |
 
-</center>
+</p>
 
 # Requeriments
  - <a href="https://github.com/PapirusDevelopmentTeam/papirus-icon-theme">Papirus Icon Theme</a>
