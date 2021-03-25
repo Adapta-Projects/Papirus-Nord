@@ -22,7 +22,7 @@ set -o errexit \
 
 readonly THIS_SCRIPT="$(readlink -f "${BASH_SOURCE[0]}")"
 readonly PROGNAME="$(basename "${BASH_SOURCE[0]}")"
-readonly VERSION="1.6.0"
+readonly VERSION="1.8.0"
 readonly -a ARGS=("$@")
 
 msg() {
@@ -116,10 +116,10 @@ _is_valid_color() {
 declare_colors() {
 	local color=''
 	local -a colors=()
-	local -a valid_colors=("black" "blue" "bluegrey" "brown" "cyan"
-		"deeporange" "green" "grey" "indigo" "magenta" "nordic"
-		"orange" "pink" "purple" "red" "teal" "violet" "white"
-		"yellow" "auroragreen" "auroraorange" "aurorayellow" "frostblue4" "frostblue2" "auroramagenta" "aurorared" "frostblue3" "frostblue" "polarnight3" "polarnight1" "snowstorm1" )
+	local -a valid_colors=("black" "blue" "bluegrey" "breeze" "brown"
+		"cyan" "deeporange" "green" "grey" "indigo" "magenta" "nordic"
+		"orange" "palebrown" "paleorange" "pink" "purple" "red" "teal"
+		"violet" "white" "yaru" "yellow" "auroragreen" "auroraorange" "aurorayellow" "frostblue4" "frostblue2" "auroramagenta" "aurorared" "frostblue3" "frostblue1" "polarnight3" "polarnight2" "polarnight3" "polarnight1" "snowstorm1")
 
 	for color in "${valid_colors[@]}"; do
 		if [ -e "$THEME_DIR/48x48/places/folder-$color.svg" ]; then
@@ -265,8 +265,7 @@ change_color() {
 
 				file_name="${file_path##*/}"
 				symlink_path="${file_path/-$color/}"  # remove color suffix
-				
-				
+
 				ln -sf "$file_name" "$symlink_path" || {
 					fatal "Fail to create '$symlink_path' symlink"
 				}
@@ -348,8 +347,6 @@ delete_icon_caches() {
 		# KDE 5 icon caches
 		"$real_home/.cache/icon-cache.kcache"
 		"/var/tmp/kdecache-$real_user/icon-cache.kcache"
-		# KDE 4 icon caches
-		"$real_home/.kde4/cache-$(hostname)/icon-cache.kcache"
 	)
 
 	verbose "Deleting icon caches ..."
