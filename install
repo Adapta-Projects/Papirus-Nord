@@ -9,7 +9,7 @@ echo "For better usage, run this script using root user!"
 echo -n "Did you previously install on the Papirus' Linux Universe version? (Type Y or N) "
 read cond
 
-if [[ ( $cond != "Y" ) && ( $condd != "N" ) ]]
+if [[ ( $cond != "Y" ) && ( $cond != "N" ) ]]
 then
     echo "Please enter a valid option!"
     exit 0
