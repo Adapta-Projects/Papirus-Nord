@@ -3,10 +3,10 @@
 PREFIX="Icons"
 LOCAL="/usr/share/icons/Papirus"
 
-echo "Welcome to Papirus Nord installer!"
-echo "For better usage, run this script using root user!"
+echo "Welcome to the Papirus Nord installer!"
+echo "For better usage, run this script as a superuser (sudo)!"
 
-echo -n "Did you previously install on the Papirus' Linux Universe version? (Type Y or N) "
+echo -n "Have you previously installed the Papirus' Linux Universe version? (Type Y or N) "
 read cond
 
 if [[ ( $cond != "Y" ) && ( $cond != "N" ) ]]
@@ -45,7 +45,7 @@ else
     else
         if [ ! -f /usr/bin/papirus-folders ]
         then
-            echo "Papirus-folders script not is installed!"
+            echo "Papirus-folders script is not installed!"
             install
             echo "Papirus-folders script installed!"
         else
